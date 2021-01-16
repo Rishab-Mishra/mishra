@@ -1,0 +1,134 @@
+.footer {
+    padding: 10px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 80%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.header{
+    background-color: rgb(5, 13, 14);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    
+    color: white;
+}
+.header-elements
+{
+    display: flex;
+    list-style-type: none;
+}
+.header-elements > li > a{
+    text-decoration: none;
+    padding: 50px;
+    color: white;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 1.3em;
+    
+    background: url('https://media.giphy.com/media/fC6BAcnLFF2o/giphy.gif');
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#about-me > h2{
+    text-align: center;
+}
+#about-me > p{
+    padding: 0 1em;
+    text-align: center;
+}
+#skill > h2{
+    text-align: center;
+    padding: 0 1em;
+    color: white;
+
+}
+#skill > ul {
+    margin: 0.5em;
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    color: white;
+
+}
+#skill > ul > li{
+    margin: 0.5em;
+    padding: 0.5em;
+    background-color: rgba(15, 70, 143, 0.507);
+    border-radius: 0.5em;
+}
+
+
+#pro2{
+    display: flex;
+}
+#pro3{
+    display: grid;
+    padding: 2em;
+}
+#popo{
+    display: flex;
+}
+
+#img0{
+    width: 300px;
+    height: 190px;
+    margin-top: 40px;
+}
+.popo1{
+    margin-left: -50px;
+    margin-top: -50px;
+}
+#prish{
+    margin-top: -30px;
+}
+#prisha{
+   
+ margin-top: -10px;
+}
+.prolist{
+  flex-wrap: wrap;
+}
+#projects > h2{
+    text-align: center;
+}
+#imgme{
+   width: 20%;
+   height: 500%;
+   border-radius: 80%;
+   margin-top: 50px;
+}
+#hove > li:hover{
+    background-color: rgb(238, 204, 91);
+}
+#font{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.yoyo{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#home > h2{
+    width:50%;
+    padding:1em;
+    margin-top: 90px;
+    font-size: 300%;
+    text-shadow: 6px 6px #0e865879;
+} 
+#home{
+    padding-top:30px;
+    display: flex;
+}
